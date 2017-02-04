@@ -38,19 +38,15 @@ static const NSTimeInterval SOCKET_TIMEOUT = 10.0f; //超时时间
  *     @"SKY_KEY_VOLUME_DOWN",                 音量-
  */
 static NSString * const SKY_KEY_BACK = @"SKY_KEY_BACK";
-static NSString * const SKY_KEY_HOME = @"SKY_KEY_BACK";
-static NSString * const SKY_KEY_MENU = @"SKY_KEY_BACK";
-static NSString * const SKY_KEY_CENTER = @"SKY_KEY_BACK";
-static NSString * const SKY_KEY_UP = @"SKY_KEY_BACK";
-static NSString * const SKY_KEY_DOWN = @"SKY_KEY_BACK";
-static NSString * const SKY_KEY_LEFT = @"SKY_KEY_BACK";
-static NSString * const SKY_KEY_RIGHT = @"SKY_KEY_BACK";
-static NSString * const SKY_KEY_POWER = @"SKY_KEY_BACK";
-static NSString * const SKY_KEY_VOLUME_UP = @"SKY_KEY_BACK";
-static NSString * const SKY_KEY_VOLUME_DOWN = @"SKY_KEY_BACK";
-
-//notification
-//static NSString * const SOCKET_NOTIFICATION_DISCONNECT = @"SOCKET_NOTIFICATION_DISCONNECT";
-
+static NSString * const SKY_KEY_HOME = @"SKY_KEY_HOME";
+static NSString * const SKY_KEY_MENU = @"SKY_KEY_MENU";
+static NSString * const SKY_KEY_CENTER = @"SKY_KEY_CENTER";
+static NSString * const SKY_KEY_UP = @"SKY_KEY_UP";
+static NSString * const SKY_KEY_DOWN = @"SKY_KEY_DOWN";
+static NSString * const SKY_KEY_LEFT = @"SKY_KEY_LEFT";
+static NSString * const SKY_KEY_RIGHT = @"SKY_KEY_RIGHT";
+static NSString * const SKY_KEY_POWER = @"SKY_KEY_POWER";
+static NSString * const SKY_KEY_VOLUME_UP = @"SKY_KEY_VOLUME_UP";
+static NSString * const SKY_KEY_VOLUME_DOWN = @"SKY_KEY_VOLUME_DOWN";
 
 #endif /* SKYDEConfig_h */
