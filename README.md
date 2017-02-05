@@ -6,7 +6,7 @@
 在你的Podfile中添加：
 
 	target 'TargetName' do
-	pod 'SKYDESDK', '~> 1.0.0'
+	pod 'SKYDESDK', '~> 1.0.1'
 	end
 
 然后执行：
