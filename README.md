@@ -25,9 +25,9 @@
 
 #### SDK主要文件说明
 
-* [`GCDAsyncUdpSocket`](https://github.com/robbiehanson/CocoaAsyncSocket)是一个封装好的UDP通信开源库，，如果你的项目中已经使用了，可以从本SDK中删除。
+* [`GCDAsyncUdpSocket`](https://github.com/robbiehanson/CocoaAsyncSocket)是一个封装好的UDP通信开源库，如果你的项目中已经使用了，可以从本SDK中删除。
 
-* `NSData+SKYDE`和`NSDictionary+SKYDE`两个类别封装了SDK中频繁使用的几个函数。不需要关系。
+* `NSData+SKYDE`和`NSDictionary+SKYDE`两个类别封装了SDK中频繁使用的几个函数。不需要关心。
 
 * `SKYDEConfig.h`是SDK配置文件。
 
@@ -38,7 +38,7 @@
 
 #### SDK配置
 
-1. 通过`SKYDEConfig.h`中的`#define LOGENABLE`打开或者关闭LOG
+1. 通过`SKYDEConfig.h`中的`#define LOGENABLE`打开或者关闭LOG，默认是关闭的。
 2. 在本SDK中有一个心跳机制检测手机和电视的连接是否正常，如果超过一定的时间无法通信，SDK会发送一个断开连接的通知，同时关闭socket。此时客户端需要做断开设备的UI刷新工作。通过修改`SKYDEConfig.h`中`SOCKET_TIMEOUT`的数值来改变超时时间，默认10秒。
 
 #### SDK使用
@@ -50,6 +50,10 @@
 ##### API
 
 所有的API使用方法请直接看`SKYDEManger.h`中的注释。
+
+##### 注意事项
+
+本SDK大部分回调都在子线程中，请不要在回调中直接刷新UI。
 
 	
 ### END
