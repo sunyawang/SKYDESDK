@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SKYDESDK"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "The package of useful tools, include categories and classes"
   s.homepage     = "https://github.com/sunyawang/SKYDESDK"
   s.license      = "MIT"
