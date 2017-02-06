@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.authors      = { 'yeven' => 'sunyawang1990@gmail.com'}
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/sunyawang/SKYDESDK.git", :tag => s.version }
-  s.source_files = 'SKYDESDK', 'SKYDESDK/**/*.{h,m,a}'
+  s.source_files = 'SKYDESDK', 'SKYDESDK/**/*.{h,m}'
   s.requires_arc = true
 end
